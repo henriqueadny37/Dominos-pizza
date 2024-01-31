@@ -87,7 +87,7 @@ export const Menu = () => {
               <a
                 href="#"
                 className="hover:bg-powerdarkblue block rounded transition-all p-2">
-                Lojas
+                Acompanhar Pedido
               </a>
             </div>
           </div>

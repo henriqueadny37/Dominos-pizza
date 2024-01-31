@@ -1,7 +1,7 @@
 import { Section } from "./Principal/Section";
 import { Menu } from "./Menu";
 import { Main } from "./Principal/Main";
-import { Realfooter } from "./Realfooter";
+import { Footer } from "./Footer";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Menu />
       <Section />
       <Main />
-      <Realfooter />
+      <Footer />
     </>
   );
 }

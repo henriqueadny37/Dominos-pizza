@@ -4,7 +4,7 @@ import twittericon from "../../Icons/twittericon.svg";
 import tiktokicon from "../../Icons/tiktokicon.svg";
 import youtubeicon from "../../Icons/youtubeicon.svg";
 
-export const Realfooter = () => {
+export const Footer = () => {
   return (
     <>
       <footer className="bg-powerlightgray text-powerdarkgray ">
