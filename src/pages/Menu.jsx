@@ -43,8 +43,12 @@ const Menu = () => {
                   className="hover:bg-powerdarkblue rounded transition-all p-2">
                   Acompanhar Pedido
                 </a>
-                <div className="flex border border-powerwhite rounded-md text-center p-2 text-sm cursor-pointer">
-                  <img src={location.src} alt="location" />
+                <div className="hidden lg:flex border border-powerwhite rounded-md text-center p-2 text-sm cursor-pointer">
+                  <img
+                    src={location.src}
+                    alt="location"
+                    className="w-6 h-6 mt-2"
+                  />
                   <a href="#">
                     <p>
                       Veja a Dominos mais <br /> próximo
