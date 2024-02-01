@@ -1,4 +1,4 @@
-export const Section = () => {
+const Section = () => {
   return (
     <>
       <div className="justify-center px-5 items-center text-center my-10 text-2xl font-bold">
@@ -33,3 +33,5 @@ export const Section = () => {
     </>
   );
 };
+
+export default Section;

@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import Combopizza from "../Fotos/Combopizza.png";
 import Pecaaquimobile from "../PhotoMobile/Pecaaquimobile.png";
 import Footerpizza from "../Fotos/Footerpizza.png";
@@ -7,7 +9,7 @@ import BannerMobile from "../PhotoMobile/BannerMobile.png";
 import Footermobile from "../PhotoMobile/Footermobile.png";
 import Novobanner from "../Fotos/Novobanner.png";
 
-export const Main = () => {
+const Main = () => {
   return (
     <>
       <div className="flex flex-col sm:flex-row sm:w-auto gap-4 px-5 items-center justify-center text-center">
@@ -61,3 +63,5 @@ export const Main = () => {
     </>
   );
 };
+
+export default Main

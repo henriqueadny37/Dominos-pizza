@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import close from "../../Icons/close.svg";
 import xmark from "../../Icons/xmark.svg";
 import location from "../../Icons/location.svg";
 
-export const Menu = () => {
+const Menu = () => {
   const [isClick, setIsclick] = useState(false);
 
   const bots = () => {
@@ -17,7 +18,7 @@ export const Menu = () => {
           <div className="flex lg:items-center items-center justify-between lg:justify-center h-16">
             <div className="flex items-start">
               <div className="flex-shrink-0">
-                <a href="#">Domino's Pizza</a>
+                <a href="#">Dominos Pizza</a>
               </div>
             </div>
             <div className="hidden md:block">
@@ -43,10 +44,10 @@ export const Menu = () => {
                   Acompanhar Pedido
                 </a>
                 <div className="flex border border-powerwhite rounded-md text-center p-2 text-sm cursor-pointer">
-                  <img src={location.src} alt="" className="w-4 h-4 mt-4" />
+                  <img src={location.src} alt="location" />
                   <a href="#">
                     <p>
-                      Veja a Domino's mais <br /> próximo
+                      Veja a Dominos mais <br /> próximo
                     </p>
                   </a>
                 </div>
@@ -58,7 +59,7 @@ export const Menu = () => {
               hover:text-powerpink focus:ring-2 focus:ring-inset focus:ring-white"
                 onClick={bots}>
                 {isClick ? (
-                  <img src={xmark.src} alt="fechar" />
+                  <img src={xmark.src} alt="Fechar" />
                 ) : (
                   <img src={close.src} alt="Abrir" />
                 )}
@@ -96,3 +97,5 @@ export const Menu = () => {
     </>
   );
 };
+
+export default Menu;
