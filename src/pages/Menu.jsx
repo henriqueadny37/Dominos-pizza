@@ -26,7 +26,7 @@ const Menu = () => {
               <div className="ml-4 flex items-center space-x-4 gap-4 font-bold">
                 <Link
                   className="hover:bg-powerdarkblue rounded transition-all p-1"
-                  href="/Users/Cadastro">
+                  href="Users/Cadastro">
                   Pedir minha pizza
                 </Link>
                 <a
