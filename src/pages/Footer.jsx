@@ -5,6 +5,7 @@ import faceicon from "../../Icons/faceicon.svg";
 import twittericon from "../../Icons/twittericon.svg";
 import tiktokicon from "../../Icons/tiktokicon.svg";
 import youtubeicon from "../../Icons/youtubeicon.svg";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -22,11 +23,13 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex gap-7 justify-center items-center sm:justify-start sm:mx-36 sm:gap-4 my-6">
-            <img
-              src={logoinstagram.src}
-              alt="INSTAGRAM-ICON"
-              className="w-6 h-6"
-            />
+            <Link href="https://www.instagram.com/dominospizzabrasil/">
+              <img
+                src={logoinstagram.src}
+                alt="INSTAGRAM-ICON"
+                className="w-6 h-6"
+              />
+            </Link>
             <img src={faceicon.src} alt="FACEBOOK-ICON" className="w-6 h-6 " />
             <img src={twittericon.src} alt="TWITTER-ICON" className="w-6 h-6" />
             <img src={tiktokicon.src} alt="ICON-TIKTOK" className="w-6 h-6 " />

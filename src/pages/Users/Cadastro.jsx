@@ -8,7 +8,7 @@ const Cadastro = () => {
   return (
     <>
       <Localpizza />
-      <div className="justify-center items-center sm:justify-center sm:items-center max-w-8xl my-5 mx-3 lg:mx-36 h-[500px]">
+      <div className="flex-row justify-center items-center sm:justify-center sm:items-center max-w-8xl my-5 mx-3 lg:mx-36 h-[500px]">
         <p className="text-2xl font-bold">Encontre a loja mais próxima</p>
         <div className="flex-row border border-bg-powerdarkgray h-72">
           <div className="flex bg-powerdarkblue text-powerwhite font-semibold p-2">
