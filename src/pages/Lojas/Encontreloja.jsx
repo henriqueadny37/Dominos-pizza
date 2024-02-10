@@ -1,5 +1,5 @@
 import manutencao from "../../../Icons/manutencao.svg";
-const Cards = () => {
+const Encontreloja = () => {
   return (
     <>
       <div className="text-center justify-center items-center text-powergray">
@@ -8,10 +8,10 @@ const Cards = () => {
           <img src={manutencao.src} alt="manu" className="w-44 h-44" />
         </div>
         <h1 className="text-powerdarkblue font-bold text-3xl">
-          TEM UM MACHO FAZENDO MANUTENÇÃO!
+          Site em construção!
         </h1>
       </div>
     </>
   );
 };
-export default Cards;
+export default Encontreloja;

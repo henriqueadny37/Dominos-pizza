@@ -16,6 +16,7 @@ module.exports = {
       powerlightgray: "#BFBFBF",
       powerdarkgray: "#1F2024",
       powerblack: "#000",
+      powerred: "#BF0413",
     },
     extend: {
       backgroundImage: {

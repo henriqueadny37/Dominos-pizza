@@ -30,12 +30,12 @@ const Menu = () => {
                   Pedir minha pizza
                 </Link>
                 <a
-                  href="Cardapio/Cards"
+                  href="Cardapio/Cardapiolista"
                   className="hover:bg-powerdarkblue rounded transition-all p-2">
                   Cardápio
                 </a>
                 <a
-                  href="#"
+                  href="Promo/Promocoes"
                   className="hover:bg-powerdarkblue rounded transition-all p-2">
                   Promoções
                 </a>
@@ -79,12 +79,12 @@ const Menu = () => {
                 <p>Pedir minha pizza</p>
               </Link>
               <a
-                href="Cardapio/Cards"
+                href="Cardapio/Cardapiolista"
                 className="hover:bg-powerdarkblue block rounded transition-all p-2">
                 Cardápio
               </a>
               <a
-                href="#"
+                href="Promo/Promocoes"
                 className="hover:bg-powerdarkblue block rounded transition-all p-2">
                 Promoções
               </a>
