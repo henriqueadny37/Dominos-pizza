@@ -44,7 +44,9 @@ const Menu = () => {
                   className="hover:bg-powerdarkblue rounded transition-all p-2">
                   Acompanhar Pedido
                 </a>
-                <div className="hidden lg:flex border border-powerwhite rounded-md text-center p-2 text-sm cursor-pointer">
+                <div
+                  className="hidden lg:flex border border-powerwhite rounded-md
+                 text-center p-2 text-sm cursor-pointer">
                   <img
                     src={location.src}
                     alt="location"

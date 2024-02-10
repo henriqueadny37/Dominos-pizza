@@ -5,10 +5,12 @@ import dessert from "../Fotos/Listacardapio/dessert.webp";
 import drinks from "../Fotos/Listacardapio/drinks.webp";
 import Link from "next/link";
 import Footer from "../Footer";
+import Menucardapio from "./Menucardapio";
 
 const Cardapiolista = () => {
   return (
     <>
+      <Menucardapio />
       <div className="justify-center items-center my-10 max-w-5xl lg:mx-36">
         <div
           className="flex-col justify-between bg-powerblue 
