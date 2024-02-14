@@ -51,6 +51,32 @@ export const Menucardapio = () => {
             </div>
           </div>
         </div>
+        <div>
+          {Cardclick && (
+            <div className="md:hidden">
+              <div className="pt-2 px-2 pb-3 space-y-1 sm:px-3">
+                <Link href="Users/Cadastro" className="block">
+                  <p>Pedir Minha pizza</p>
+                </Link>
+                <a
+                  href="Cardapio/Cardapiolista"
+                  className="p-2 hover:bg-powerdarkblue block rounded transition-all">
+                  Cardápio
+                </a>
+                <a
+                  href="Promo/Promocoes"
+                  className="p-2 hover:bg-powerdarkblue block rounded transition-all">
+                  Promoção
+                </a>
+                <a
+                  href="Form/Formulario"
+                  className="p-2 hover:bg-powerdarkblue block rounded transition-all">
+                  Acompanhar Pedido
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </>
   );
