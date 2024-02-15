@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import specialty from "../Fotos/Listacardapio/specialty.webp";
 import sides from "../Fotos/Listacardapio/sides.webp";
 import sandwiches from "../Fotos/Listacardapio/sandwiches.webp";

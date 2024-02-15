@@ -13,6 +13,7 @@ export const Formulario = () => {
     const cep = e.target.value.replace(/\D/g, "");
     if (!e.target.value) return;
     fetch(`viacep.com.br/ws/${cep}/json/`)
+      .catch((err) => console.log(err))
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

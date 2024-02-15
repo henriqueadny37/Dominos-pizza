@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Localpizza from "./Localpizza";
 import bikeicon from "../../../Icons/Iconbuy/bikeicon.svg";
 import personicon from "../../../Icons/Iconbuy/personicon.svg";

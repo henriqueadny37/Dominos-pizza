@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Section = () => {
   return (
     <>
@@ -12,11 +14,11 @@ const Section = () => {
               ESCOLHA SUA FORMA DE
               <br /> ENTREGA
             </h1>
-            <a
-              href="#"
+            <Link
+              href="/Principal/FormDelivery"
               className="bg-powerpink p-2 text-powerwhite font-semibold text-balance rounded-sm hover:bg-powerdarkpink transition-all">
               Delivery
-            </a>
+            </Link>
             <span className="text-powergray mx-1">ou</span>
             <a
               href="#"

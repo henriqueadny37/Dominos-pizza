@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import location from "../../../Icons/location.svg";
 import xmark from "../../../Icons/xmark.svg";
@@ -18,7 +19,7 @@ export const Menucardapio = () => {
           <div className="flex lg:items-center items-center justify-between lg:justify-center h-16">
             <div className="flex items-start">
               <div className="flex shrink-0">
-                <a href="#">Inicio</a>
+                <Link href="/">Inicio</Link>
               </div>
             </div>
 

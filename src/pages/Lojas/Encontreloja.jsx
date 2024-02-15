@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import manutencao from "../../../Icons/manutencao.svg";
 const Encontreloja = () => {
   return (
